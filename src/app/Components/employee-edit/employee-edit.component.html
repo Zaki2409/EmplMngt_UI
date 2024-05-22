@@ -20,30 +20,30 @@
                     <input type="text" class="form-control" id="Name" name="Name" [(ngModel)]="EmployeeDetails.name" >
                   </div>
                 </div>
-                <div class="row mb-3">
+                <!-- <div class="row mb-3">
                   <label for="Name" class="col-sm-2 col-form-label">Gender</label>
                   <div class="col-sm-10">
                     <input type="text" class="form-control" id="Name" name="Gender" [(ngModel)]="EmployeeDetails.gender" >
                   </div>
-                </div>
-                <!-- <fieldset class="row mb-3">
+                </div> -->
+                <fieldset class="row mb-3">
                   <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
                   <div class="col-sm-10">
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="Gender" id="Male" value="option1"  [(ngModel)]="EmployeeDetails.gender">
+                      <input class="form-check-input" type="radio" name="Gender" id="Male" value="Male"  [(ngModel)]="EmployeeDetails.gender">
                       <label class="form-check-label" for="Male">
                         Male
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="Gender" id="Female" value="option2" [(ngModel)]="EmployeeDetails.gender">
+                      <input class="form-check-input" type="radio" name="Gender" id="Female" value="Female" [(ngModel)]="EmployeeDetails.gender">
                       <label class="form-check-label" for="Female">
                        Female
                       </label>
                     </div>
                    
                   </div>
-                </fieldset> -->
+                </fieldset>
                 <div class="row mb-3">
                     <label for="Email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
